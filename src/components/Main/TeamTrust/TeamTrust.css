@@ -1,0 +1,29 @@
+.team-trust{
+    height:80vh;
+    background-color: #FAE1D54D;
+}
+
+.Team-Image{
+    width:28rem;
+    height:24rem;
+}
+
+.team-trust{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:5rem;   
+}
+
+@media (max-width: 480px){
+    .team-trust{
+        display:flex;
+        flex-direction: column;
+        margin-top:20rem;
+    }
+
+    .Team-Image{
+        width:100vw;
+
+    }
+}

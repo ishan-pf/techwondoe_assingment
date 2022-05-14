@@ -1,0 +1,53 @@
+.Card{
+   display:flex;
+   flex-direction : column;
+   align-items : center;
+   justify-content:center;
+    width:30vw;
+}
+
+.Card-heading{
+    display:flex;
+    align-items:center;
+    
+    gap:1rem;
+    
+}
+.Card-heading h3{
+    font-size:1.125rem;
+  
+}
+
+.Card-Image{
+    width:16px;
+    height:11px;
+}
+
+
+.Card-description{
+    margin-left:37px;
+    width:45%;
+}
+
+.Card-description p{
+    text-align:left;
+}
+
+@media (max-width: 480px){
+
+    .Card{
+        align-items: flex-start;
+         width:90vw;
+     }
+     
+    .Card-description{
+        width:90%;
+    }
+    .Card-heading h3{
+        font-size:1rem;
+    }
+    .Card-description p{
+        font-size:0.875rem;
+    }
+
+}

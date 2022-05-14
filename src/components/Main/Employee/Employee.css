@@ -1,0 +1,16 @@
+.Employee{
+    height:80vh;
+    background-color:#EDEDED;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:2rem;
+}
+
+@media(max-width:480px){
+    .Employee{
+        flex-wrap:wrap;
+        padding:6rem 1rem 22rem 1rem;
+        
+    }
+}

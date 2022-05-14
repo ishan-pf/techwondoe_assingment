@@ -1,0 +1,48 @@
+.nav{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right:5rem;
+    height:4.1rem;
+}
+
+.hamburger{
+    display:none;
+}
+
+.nav-list{
+    display:flex;
+    list-style: none;
+    gap:3rem;
+    text-align: center;
+}
+
+.nav-list li{
+    font-size:0.9rem;
+    position:relative;
+
+}
+
+.nav-icon{
+    position : absolute;
+    top:15%;
+    left:110%;
+}
+
+@media (max-width: 480px) {
+
+    .nav{
+        position:relative;
+    }
+   
+    .hamburger{
+        display:block;
+        position : absolute;
+        right:5%;
+        top:45%;
+    }
+
+    .nav-list{
+        display:none;
+    }
+}

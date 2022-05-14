@@ -1,0 +1,52 @@
+.team-overview h5{
+    color: #E6692E;
+    font-size:0.9375rem;
+}
+
+.team-overview h2{
+  
+    font-size:2.5rem;
+}
+.team-overview p{
+    width:50vw;
+    text-align:left
+}
+
+.team-btn{
+    border:none;
+    background-color: #E6692E;
+    color:#FFFFFF;
+    font-size:1.125rem;
+    padding:0.6rem 0.8rem;
+    border-radius:5px;
+}
+
+@media (max-width: 480px){
+    .team-overview{
+        margin-left:1rem;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        margin-top:-2rem;
+       padding-bottom:20rem;
+    }
+    .team-overview h5{
+        color: #E6692E;
+        font-size:0.875rem;
+        
+        
+    }
+    .team-overview h2{
+        margin-top:-1rem;
+        font-size:1.5rem;
+        
+    }
+    .team-overview p{
+        width:90vw;
+        
+    }
+    .team-btn{
+        align-self: flex-start;
+        
+    }
+}

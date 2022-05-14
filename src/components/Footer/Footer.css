@@ -1,0 +1,35 @@
+.Footer{
+    height:30vh;
+    margin-top:5rem;
+  
+}
+
+.footer-link{
+    display:flex;
+    gap:2rem;
+    justify-content:space-between;
+    /* align-items:center; */
+    align-self:flex-end;
+    margin-bottom:4rem;
+}
+
+.footer-container{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.copyright{
+    text-align:center;
+    display:block;
+    background-color: #EDEDED;
+    padding:1rem 0;
+}
+
+@media(max-width:480px){
+    
+    
+    .footer-container{
+        flex-wrap:wrap-reverse;
+    }
+}

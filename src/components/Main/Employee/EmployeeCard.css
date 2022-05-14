@@ -1,0 +1,50 @@
+
+.EmployeeCard{
+    background-color: #FFF;
+    width:28rem;
+    height:23rem;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:space-between;
+    padding:2rem;
+}
+
+.EmployeeCard-header h3{
+    font-size:1.875rem;
+}
+
+
+.EmployeeCard-header p{
+    margin-top:0;
+}
+
+.EmployeeCard-Link{
+    color:#E6692E;
+}
+
+.EmployeeCard-container{
+    width:3vw;
+    text-align:center;
+    padding:10px;
+    border-radius:50%;
+}
+
+.EmployeeCard-Image{
+    width:35px;
+    height:40px;
+    font-size:1rem;
+}
+
+@media(max-width:480px){
+    .EmployeeCard-header h3{
+        font-size:1.25rem;
+    }
+    .EmployeeCard-container{
+        width:9vw;
+    }
+    .EmployeeCard-Image{
+        width:30px;
+        height:35px;
+    }
+}

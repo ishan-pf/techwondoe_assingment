@@ -1,0 +1,46 @@
+.navlink{
+    display:flex;
+    justify-content:center;
+    margin-bottom:1rem;
+    gap:1rem;
+}
+
+
+.navlink ul{
+    list-style:none;
+}
+
+.navlink ul li{
+    margin:1rem;
+}
+
+.list2{
+    text-decoration:underline;
+
+}
+
+
+.list4{
+    width:10%;
+}
+
+
+@media(max-width:480px){
+    .navlink{
+        flex-wrap:wrap;
+        align-items:flex-start;
+        justify-content:flex-start;
+        gap:1rem;
+    }
+    .list2{
+        margin-left:1rem;
+        width:30%;
+        display:flex;
+        flex-direction:column;
+        align-items:center
+    }
+
+    .list4{
+       width: 15%;
+    }
+}

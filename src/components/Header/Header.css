@@ -1,0 +1,36 @@
+
+
+.hero-image{
+    width:98.9vw;
+    height:85vh;
+}
+
+.header-imgtext{
+    display:none;
+}
+
+@media (max-width: 480px){
+
+    .header{
+        position:relative;
+    }
+    .hero-image{
+        /* width:100%;
+        height:100%; */
+        
+        height:50vh;
+        width:100vw;
+        object-fit:cover;
+        object-position: 22%;
+    }
+
+    .header-imgtext{
+        display:block;
+        position:absolute;
+        color:#fff;
+        font-size:2rem;
+        top:35%;
+        left:3%;
+        font-weight:600;
+    }
+}
