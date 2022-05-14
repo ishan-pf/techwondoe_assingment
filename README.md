@@ -1,3 +1,32 @@
+#List of things 
+
+Each section of the homepage must be a separate react component - done
+
+No hardcoding of text in react app. All the content (text and images) must be coming from a Headless CMS through its API (Example API reference ). -done
+
+Enable theming with just 2 colors i.e primary and secondary and font family -dnne
+
+Create Typography components for H1, H2, Paragraph -done
+
+Use Storybook for 3 UI components -done
+
+    Button - Primary and secondary
+
+    Typography - H1, H2, Paragraph
+
+    Sub component of the Why Choose us section with icon, title and paragraph.
+
+Prettier and Linter configuration -done
+
+Host the page on Netlify, Vercel or another provider. -done
+
+I deloyed the application on netlify -
+
+1. first I created a optimized build by running 'npm run build'
+2. Then i uploaded the build folder on netlify which then deployed it on the web
+3. It even provides me with the power to reupload the build to make changes
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
